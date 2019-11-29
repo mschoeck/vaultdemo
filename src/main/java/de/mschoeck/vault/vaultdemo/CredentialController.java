@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RefreshScope
 public class CredentialController {
 
-    @Value("${database.username:N/A}")
+    @Value("${database.userid:N/A}")
     private String dbUser;
 
     @Value("${database.password:N/A}")
